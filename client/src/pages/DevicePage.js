@@ -17,7 +17,7 @@ const DevicePage = () =>{
         <Container className='mt-3'>
             <Row>
             <Col md={4}>
-                <Image width={300} height ={300} src={device.img}/>
+                <Image width={300} height ={400} src={device.img}/>
             </Col>
             <Col md={4}>
                 <Row className='d-flex flex-column align-items-center'>
@@ -31,7 +31,7 @@ const DevicePage = () =>{
             <Col md={4}>
                 <Card
                 className='d-flex flex-column align-items-center justify-content-around'
-                style={{width: 300, heght:300, fontSize: 32, border:'5px solid lightgray'}}
+                style={{width: 300, heght:300, fontSize: 32, border:'15px solid lightgray'}}
                 
                 >
                     <h3>От: {device.price} руб.</h3>

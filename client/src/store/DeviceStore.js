@@ -7,8 +7,6 @@ export default class DeviceStore {
             {id:3, name:'Шубы из шерст'},
             {id:4, name:'Шубы из мутона'},
             {id:5, name:'Шубы из астрагана'},
-            
-
         ]
         this._brands = [
             {id:1, name: "LG"},
